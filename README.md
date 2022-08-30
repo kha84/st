@@ -6,9 +6,10 @@ A fork of [ST](https://st.suckless.org/) with few cosmetical changes:
 - selection with mouse goes both to global clipboard
 
 
-# Screenshots
+# Screenshot
 
-![screenshot](kha84/st/blob/main/screenshot.png)
+Side-by-side. Konsole on the left hand side, st - on the right.
+![screenshot](https://raw.githubusercontent.com/kha84/st/main/screenshot.png)
 
 # Installation 
 
