@@ -2,8 +2,8 @@
 
 A fork of [ST](https://st.suckless.org/) with few cosmetical changes:
 - colors are taken from KDE Konsole dark theme
-- right mouse button click paste the clipboard content like Putty
-- selection with mouse goes both to global clipboard
+- right mouse button click pastes the clipboard content (like Putty)
+- selection with mouse also goes into global clipboard (like Putty)
 
 
 # Screenshot
