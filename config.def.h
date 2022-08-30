@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "NimbusMonoPS:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -96,23 +96,23 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#232627",
+	"#ed1515",
+	"#11d116",
+	"#f67400",
+	"#1d99f3",
+	"#9b59b6",
+	"#1abc9c",
+	"#fcfcfc",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
+	"#7f8c8d",
+	"#c0392b",
+	"#1cdc9a",
+	"#fdbc4b",
+	"#3daee9",
+	"#8e44ad",
+	"#16a085",
 	"white",
 
 	[255] = 0,
@@ -121,7 +121,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#232627", /* default background colour */
 };
 
 
@@ -176,7 +176,7 @@ static uint forcemousemod = ShiftMask;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
-	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
+	{ XK_ANY_MOD,           Button3, selpaste,       {.i = 0},      1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
 	{ ShiftMask,            Button5, ttysend,        {.s = "\033[6;2~"} },
